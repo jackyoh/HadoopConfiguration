@@ -58,29 +58,4 @@
        <name>yarn.resourcemanager.webapp.address</name>
        <value>server-a1:8088</value>
   </property>
- <!-- 
- <property>
-        <name>yarn.application.classpath</name>
-        <value>
-            /opt/hadoop/etc/hadoop,
-            /opt/hadoop/share/hadoop/common/*,
-            /opt/hadoop/share/hadoop/common/lib/*,
-            /opt/hadoop/share/hadoop/hdfs/*,
-            /opt/hadoop/share/hadoop/hdfs/lib/*,
-            /opt/hadoop/share/hadoop/mapreduce/*,
-            /opt/hadoop/share/hadoop/mapreduce/lib/*,
-            /opt/hadoop/share/hadoop/yarn/*,
-            /opt/hadoop/share/hadoop/yarn/lib/*
-         </value>
-  </property>-->
-<!--
-  <property>
-       <name>yarn.application.classpath</name>
-       <value>/opt/hadoop/etc/hadoop,/opt/hadoop/*,/opt/hadoop/lib/*</value>
-  </property>-->
- <!-- <property>
-     <name>yarn.web-proxy.address</name>
-     <value>server-a1:9046</value>
-  </property> -->
-
 </configuration>

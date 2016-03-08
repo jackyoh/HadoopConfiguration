@@ -28,7 +28,13 @@
   </property>
 
   <property>
+     <name>dfs.namenode.name.dir</name>
+     <value>/namenode</value>
+  </property>
+
+  <property>
      <name>dfs.data.dir</name>
      <value>/dfs/2/apache,/dfs/3/apache,/dfs/4/apache</value>
   </property>
+
 </configuration>

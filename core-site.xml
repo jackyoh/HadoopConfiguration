@@ -25,7 +25,7 @@
 
   <property>
       <name>hadoop.tmp.dir</name>
-      <value>/dfs/1/tmp</value>
+      <value>/home/user1/hadooptmp</value>
   </property>
 
 

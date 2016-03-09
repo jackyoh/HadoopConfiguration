@@ -43,8 +43,4 @@
        <value>server-a1</value>
   </property>
 
-  <property>
-       <name>yarn.resourcemanager.webapp.address</name>
-       <value>server-a1:8088</value>
-  </property>
 </configuration>

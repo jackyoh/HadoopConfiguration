@@ -29,12 +29,12 @@
 
   <property>
      <name>dfs.namenode.name.dir</name>
-     <value>/namenode</value>
+     <value>/home/user1/namenode</value>
   </property>
 
   <property>
      <name>dfs.data.dir</name>
-     <value>/dfs/2/apache,/dfs/3/apache,/dfs/4/apache</value>
+     <value>/home/user1/dfs</value>
   </property>
 
 </configuration>

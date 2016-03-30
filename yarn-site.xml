@@ -20,17 +20,17 @@
 
   <property>
       <name>yarn.resourcemanager.address</name>
-      <value>server-a1:8032</value>
+      <value>MASTER_HOST_NAME:8032</value>
   </property>
 
   <property>
       <name>yarn.resourcemanager.resource-tracker.address</name>
-      <value>server-a1:8031</value>
+      <value>MASTER_HOST_NAME:8031</value>
   </property>
 
   <property>
        <name>yarn.resourcemanager.scheduler.address</name>
-       <value>server-a1:8030</value>
+       <value>MASTER_HOST_NAME:8030</value>
   </property>
 
   <property>
@@ -40,7 +40,7 @@
 
   <property>
        <name>yarn.resourcemanager.hostname</name>
-       <value>server-a1</value>
+       <value>MASTER_HOST_NAME</value>
   </property>
 
   <property>
@@ -50,6 +50,6 @@
 
   <property>
          <name>yarn.resourcemanager.webapp.address</name>
-         <value>0.0.0.0</value>
+         <value>0.0.0.0:8088</value>
   </property>
 </configuration>
